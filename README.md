@@ -5,9 +5,7 @@ A modern and responsive Todo Application built with **React.js** that helps user
 ---
 
 ## 🚀 Live Demo
-
-🔗 **Live Website:**[ ](https://sujeettodo.netlify.app/)
-
+🔗 **Live Website:** [Todo App Pro](https://sujeettodo.netlify.app/)
 ---
 
 
@@ -66,7 +64,7 @@ Todo-App-Pro/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/sujeetbhardwaj/TaskManager-Todo-App-Pro.git
 ```
 
 Navigate to the project
