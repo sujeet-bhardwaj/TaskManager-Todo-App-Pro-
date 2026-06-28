@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+.bodyDark{
+  background-color: #302b32;
+}
+
+.app {
+  min-height:100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.todo-container {
+  width:100%;
+  max-width:700px;
+  background:white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.todo-containerDark {
+  width:100%;
+  max-width:700px;
+   background-color: #504654;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+.heading{
+   display: flex;
+   align-items: center;
+   margin-bottom: 25px;
+}
+
+.title {
+  text-align: center;
+  flex: 2;
+}
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.task-input {
+  flex: 1;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+.add-btn {
+  padding: 12px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search-section {
+  margin-bottom: 20px;
+}
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.filter-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.filter-btn {
+  padding: 10px 15px;
+  border: none;
+  background: #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background: #2563eb;
+  color: white;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+ max-height:200px;
+overflow-y:auto;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #eff1f5;
+  border-radius: 8px;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-text {
+  font-size: 16px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  padding: 8px 12px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  padding: 8px 12px;
+  border: none;
+  background: crimson;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.stats {
+  margin-top: 25px;
+  padding: 15px;
+  background: #eef2ff;
+  border-radius: 8px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+
+.theme-btn {
+  padding: 10px 15px;
+  border: none;
+  background: #111827;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.theme-btnDark {
+  padding: 10px 15px;
+  border: none;
+  background: #fff;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+.no-task{
+  text-align: center;
+}
