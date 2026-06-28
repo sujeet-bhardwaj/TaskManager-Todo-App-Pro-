@@ -6,7 +6,7 @@ A modern and responsive Todo Application built with **React.js** that helps user
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** https://LIVE_URL
+🔗 **Live Website:**[ ](https://sujeettodo.netlify.app/)
 
 ---
 
